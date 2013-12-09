@@ -1,0 +1,290 @@
+@import "reset.css";
+#window {
+  width: 900px;
+  height: 530px;
+  position: absolute;
+  overflow: hidden;
+  display: -webkit-box;
+}
+#window #hd {
+  height: 35px;
+  width: 100%;
+  line-height: 35px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: -webkit-linear-gradient(top, #44474a 0%, #36393c 100%);
+  color: #CCD6DE;
+}
+#window #hd .dragbar {
+  -webkit-app-region: drag;
+  width: -webkit-calc(25%);
+}
+#window #hd .dragbar h1 {
+  font-size: 18px;
+  margin-left: 10px;
+  display: inline-block;
+}
+#window #hd .dragbar h1 span {
+  color: #3b9cef;
+}
+#window #hd .dragbar .app-desc {
+  display: inline-block;
+  margin-left: 10px;
+  color: #929BA2;
+}
+#window #hd .control {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+}
+#window #hd .control span {
+  display: block;
+  width: 35px;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  text-indent: -999px;
+  position: relative;
+  cursor: pointer;
+}
+#window #hd .control .minimize:after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -4px;
+  margin-top: -1px;
+  background-color: #CCD6DE;
+  width: 9px;
+  height: 2px;
+  content: "";
+}
+#window #hd .control .close:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: -1px;
+  width: 100%;
+  height: 100%;
+  font-weight: bold;
+  text-align: center;
+  font-size: 16px;
+  content: "×";
+  text-indent: 0;
+}
+#window #bd {
+  -webkit-box-flex: 1;
+  background-color: #f5f5f5;
+  position: relative;
+  min-width: 350px;
+  padding-right: 20px;
+  top: 35px;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+#window #bd #sidebar {
+  width: 215px;
+  background-color: #e5f1f8;
+  position: relative;
+}
+#window #bd #sidebar #menus {
+  display: -webkit-flex;
+  height: 56px;
+}
+#window #bd #sidebar #menus li {
+  -webkit-flex: 1;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  text-indent: -999px;
+  box-shadow: -1px 0 0 #9db2bc, -2px 0 0 #79868c;
+  background: -webkit-linear-gradient(top, #8c9ca4 0%, #79868c 100%);
+  position: relative;
+  cursor: pointer;
+}
+#window #bd #sidebar #menus li:before {
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-color: red;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -12px;
+  margin-top: -12px;
+  content: '';
+  background: url(../img/icons.png) no-repeat;
+}
+#window #bd #sidebar #menus li:hover {
+  background: -webkit-linear-gradient(top, #3eb3eb 0%, #1f93c9 100%);
+}
+#window #bd #sidebar #menus #newFile:before {
+  background-position: -85px 0;
+}
+#window #bd #sidebar #menus #delFile:before {
+  background-position: -190px 0;
+}
+#window #bd #sidebar #menus #teamServer:before {
+  background-position: -119px 0;
+}
+#window #bd #sidebar #menus #settings:before {
+  background-position: -153px 0;
+}
+#window #bd #sidebar #projects {
+  position: absolute;
+  top: 56px;
+  height: 334px;
+  width: 100%;
+  overflow-x: hidden;
+  bottom: 0;
+}
+#window #bd #sidebar #projects li {
+  height: 50px;
+  line-height: 50px;
+  padding-left: 51px;
+  padding-right: 34px;
+  position: relative;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 14px;
+  cursor: pointer;
+  width: 130px;
+}
+#window #bd #sidebar #projects li:before {
+  display: block;
+  width: 22px;
+  height: 22px;
+  background: url(../img/icons.png) no-repeat;
+  background-position: -90px -41px;
+  position: absolute;
+  top: 50%;
+  left: 18px;
+  margin-top: -15px;
+  content: '';
+}
+#window #bd #sidebar #projects li.active {
+  background-color: #cedee9;
+  font-weight: bold;
+}
+#window #bd #sidebar #projects li.active:after {
+  display: block;
+  width: 20px;
+  height: 13px;
+  background: url(../img/icons.png) no-repeat;
+  background-position: -115px -51px;
+  position: absolute;
+  top: 50%;
+  right: 18px;
+  margin-top: -7px;
+  content: '';
+}
+#window #bd #sidebar #projects li:hover {
+  background-color: #DAE8F1;
+}
+#window #bd #main {
+  padding: 10px 20px;
+  overflow: hidden;
+  -webkit-box-flex: 1;
+  background-color: #f5f5f5;
+  position: relative;
+  min-width: 350px;
+  padding-right: 5px;
+}
+#window #bd #main .searchBar {
+  padding: 10px 0;
+  position: relative;
+  overflow: hidden;
+}
+#window #bd #main .searchBar #refresh {
+  float: left;
+  display: block;
+  width: 79px;
+  height: 22px;
+  background: -webkit-linear-gradient(top, #73c232 0%, #5da029 100%);
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  color: #FFF;
+  text-shadow: 1px 1px 1px #5fa12d;
+  position: relative;
+  top: 2px;
+  cursor: pointer;
+}
+#window #bd #main .searchBar #refresh {
+  left: 10px;
+}
+#window #bd #main .searchBar #refresh:after {
+  float: left;
+  display: block;
+  width: 14px;
+  height: 16px;
+  background: url(../img/icons.png) no-repeat;
+  background-position: -142px -49px;
+  position: relative;
+  top: 1px;
+  content: '';
+}
+#window #bd #main .searchBar #searchForm {
+  float: right;
+  width: 180px;
+  position: relative;
+}
+#window #bd #main .searchBar #searchForm input {
+  width: 160px;
+  height: 25px;
+  border: 1px solid #d1d1d1;
+  border-radius: 20px;
+  padding: 0 8px;
+  outline: none;
+}
+#window #bd #main .searchBar #searchForm button {
+  display: block;
+  width: 17px;
+  height: 17px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  text-indent: -999px;
+  background: url(../img/icons.png) no-repeat;
+  background-position: -165px -49px;
+  border: none;
+  position: absolute;
+  right: 10px;
+  top: 4px;
+  cursor: pointer;
+}
+#window #bd #main #editPanel {
+  padding: 5px;
+}
+#window #bd #main #editPanel .edit-panel {
+  border: 1px #dee2e5 solid;
+  min-width: 100px;
+  background-color: white;
+  min-height: 340px;
+  padding: 10px;
+}
+#window #bd #main .control-bar {
+  padding: 10px 0;
+}
+#window #bd #main .control-bar #save {
+  display: block;
+  width: 79px;
+  height: 22px;
+  background: -webkit-linear-gradient(top, #73c232 0%, #5da029 100%);
+  border: none;
+  outline: none;
+  color: #FFF;
+  text-shadow: 1px 1px 1px #5fa12d;
+  position: relative;
+  top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  float: right;
+}
+#window #bd #main .control-bar .hr {
+  border-bottom: 1px solid #dee2e5;
+  background-color: #FFF;
+  height: 1px;
+}

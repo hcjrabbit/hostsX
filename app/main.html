@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>hostsX</title>
+    <base target="_self">
+    <meta charset="utf-8" />
+    <link href="assets/css/main.css" type="text/css" rel="stylesheet" charset="utf-8"/>
+</head>
+<body>
+<div id="window">
+    <!-- hd -->
+    <header id="hd">
+        <div class="dragbar">
+            <h1>hosts<span>X</span></h1>
+            <p class="app-desc">just a hosts editer</p>
+        </div>
+        <ul class="control">
+            <span class="minimize"></span>
+            <span class="close"></span>
+        </ul>
+    </header>
+    <!-- hd end-->
+    <!-- bd -->
+    <section id="bd">
+        <div id="sidebar">
+            <ul id="menus">
+                <li id="newFile">新建</li>
+                <li id="delFile">删除</li>
+                <li id="teamServer">团队</li>
+            </ul>
+            <div id="projects">
+                <ul id="floders">
+
+                </ul>
+            </div>
+        </div>
+        <section id="main">
+            <div class="searchBar">
+                <button class="btn_refresh" id="refresh">刷DNS</button>
+
+                <div id="searchForm">
+                    <input type="text" placeholder="在本地、团队搜索Hosts" />
+                    <button class="btn_search">搜索</button>
+                </div>
+            </div>
+            <section id="editPanel">
+                <div class="edit-panel" contenteditable="true">
+
+                </div>
+            </section>
+            <div class="control-bar">
+                <div class="hr"></div>
+                <button class="btn_save" id="save">保存</button>
+            </div>
+        </section>
+    </section>
+    <!-- bd  end-->
+</div>
+<script type="text/javascript" src="assets/js/main.js"></script>
+</body>
+</html>
