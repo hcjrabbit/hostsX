@@ -1,0 +1,6 @@
+<option value="-1">未选择</option>
+<% for(var i=0; i< localDns.history.length; i++) { %>
+<option value="<%= i %>" <%if(i == localDns.currentIndex){%>selected<%}%>>
+    <%= localDns.history[i] %>
+</option>
+<% } %>

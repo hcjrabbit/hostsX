@@ -1,0 +1,6 @@
+<% for(var i=0; i< localData.list.length; i++) { %>
+<li data-index="<%= i %>" title="鼠标右键试试" <% if(localData.currentIndex == i){ %> class="active" <% }else{ %> class="simpletooltip" <% } %>>
+    <%= localData.list[i].name %>
+    <i class="arrow"></i>
+</li>
+<% } %>

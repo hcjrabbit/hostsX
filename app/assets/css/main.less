@@ -1,8 +1,11 @@
 @import "reset.css";
 
+.hide {
+  display: none;
+}
 #window {
-  width: 900px;
-  height: 530px;
+  width: 100%;
+  height: 100%;
   position: absolute;
   overflow: hidden;
   display: -webkit-box;
@@ -18,8 +21,8 @@
     color: #CCD6DE;
 
     .dragbar {
+      width: -webkit-calc(85%);
       -webkit-app-region: drag;
-      width: -webkit-calc(100% - 75px);
 
       h1 {
         font-size: 18px;
@@ -53,6 +56,7 @@
         cursor: pointer;
 
       }
+
       .minimize:after {
         position: absolute;
         top: 50%;
@@ -77,6 +81,35 @@
         content: "×";
         text-indent: 0;
       }
+      .help:after {
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-top: -1px;
+        width: 100%;
+        height: 100%;
+        font-weight: bold;
+        text-align: center;
+        font-size: 16px;
+        content: "";
+        text-indent: 0;
+        background: url(../img/icons.png) no-repeat -197px -76px;
+      }
+      .help:hover, .minimize:hover {
+        background-color: #5a6064;
+      }
+      .close:hover {
+        background-color: #C73636;
+      }
+    }
+    #winTip {
+      display: block;
+      width: 1px;
+      height: 1px;
+      position: fixed;
+      margin-left: -50px;
+      left: 50%;
+      top: 200px;
     }
   }
 
@@ -85,7 +118,6 @@
     background-color: #f5f5f5;
     position: relative;
     min-width: 350px;
-    padding-right: 20px;
     top: 35px;
     display: -webkit-box;
     -webkit-box-orient: horizontal;
@@ -162,16 +194,16 @@
           text-overflow: ellipsis;
           white-space: nowrap;
           overflow: hidden;
-          font-size: 14px;
+          font-size: 12px;
           cursor: pointer;
           width: 130px;
         }
         li:before {
           display: block;
           width: 22px;
-          height: 22px;
+          height: 26px;
           background: url(../img/icons.png) no-repeat;
-          background-position: -90px -41px;
+          background-position: -90px -39px;
           position: absolute;
           top: 50%;
           left: 18px;
@@ -182,7 +214,7 @@
           background-color: #cedee9;
           font-weight: bold;
         }
-        li.active:after {
+        li.active .arrow {
           display: block;
           width: 20px;
           height: 13px;
@@ -214,7 +246,7 @@
         position: relative;
         overflow: hidden;
 
-        #refresh {
+        .btn_refresh, .btn_cleanDns, .btn_blue, .btn_red {
           float: left;
           display: block;
           width: 79px;
@@ -227,12 +259,24 @@
           text-shadow: 1px 1px 1px #5fa12d;
           position: relative;
           top: 2px;
+          left: 10px;
           cursor: pointer;
         }
-        #refresh {
-          left: 10px;
+        #cleanHosts {
+          width: 86px;
         }
-        #refresh:after {
+        #setDNS {
+          background: -webkit-linear-gradient(top, #87c6ff 0%, #46a0fc 100%);
+          left: 20px;
+        }
+        #cleanDns {
+          background: -webkit-linear-gradient(top, #fa3f36 50%, #fb1105 100%);
+          left: 20px;
+        }
+        #cleanDns {
+          left: 30px;
+        }
+        .btn_refresh:after, .btn_cleanDns:after {
           float: left;
           display: block;
           width: 14px;
@@ -276,39 +320,39 @@
 
         }
 
-
-
       }
-      #editPanel {
+      .edit-panel {
         padding: 5px;
 
-        .edit-panel {
+        #editPanel {
           border: 1px #dee2e5 solid;
-          min-width: 100px;
+          width: -webkit-calc(100% - 5px);
           background-color: white;
-          min-height: 340px;
+          height: 340px;
           padding: 10px;
+          overflow: scroll;
+        }
+        #editPanel::-webkit-selection {
+          background:#33FF99;
+          color:#FF3300;
+        }
+        #editPanel::selection {
+          background:#33FF99;
+          color:#FF3300;
         }
       }
       .control-bar {
         padding: 10px 0;
 
-        #save {
-          display: block;
-          width: 79px;
-          height: 22px;
-          background: -webkit-linear-gradient(top, #73c232 0%, #5da029 100%);
-          border: none;
-          outline: none;
-          color: #FFF;
-          text-shadow: 1px 1px 1px #5fa12d;
-          position: relative;
-          top: 10px;
-          cursor: pointer;
-          border-radius: 5px;
-          float: right;
+
+        #cover {
+          margin-right: 10px;
         }
 
+        #fileStat {
+          top: 10px;
+          color: #FE7000;
+        }
         .hr {
           border-bottom: 1px solid #dee2e5;
           background-color: #FFF;
@@ -318,6 +362,115 @@
       }
 
     }
+    #extend {
+      width: 0;
+      background-color: #575c60;
+      color: #fff;
+      -webkit-transition: width 200ms ease-out;
+      position: relative;
+      overflow: hidden;
+      .inner {
+        width: 180px;
+        padding: 10px;
+        line-height: 22px;
+        -webkit-transition: opacity 200ms ease-out;
+        display: none;
 
+        select, label, input[type=text] {
+          display: block;
+          margin: 5px 0;
+          line-height: 18px;
+          width: 100%;
+        }
+        .title {
+          text-align: center;
+          height: 22px;
+          position: relative;
+          margin-bottom: 5px;
+          font-size: 20px;
+
+          #modifyDataName {
+            position: relative;
+            display: inline-block;
+            width: 13px;
+            height: 13px;
+            background: url(../img/icons.png) no-repeat -188px -50px;
+          }
+        }
+        .title:after {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          text-align: center;
+          content: attr(data-type);
+        }
+        .desc {
+          text-align: center;
+          color: #CCC;
+          margin-bottom: 10px;
+        }
+        .option_args {
+          margin-top: 10px;
+          min-height: 290px;
+          max-height: 330px;
+          overflow-y: auto;
+
+          label {
+            position: relative;
+            text-transform: capitalize;
+          }
+
+          select {
+            width: 100%;
+          }
+
+          #cleanDnsHistory {
+            margin-right: 10px;
+          }
+        }
+      }
+      .inner.show {
+        display: block;
+        opacity: 1;
+      }
+
+    }
+    #extend.show {
+      width: 200px;
+    }
+  }
+  .white_btn {
+    border-radius: 12px;
+    padding: 0 14px;
+  }
+  .btn_green {
+    display: block;
+    width: 79px;
+    height: 22px;
+    background: -webkit-linear-gradient(top, #73c232 0%, #5da029 100%);
+    border: none;
+    outline: none;
+    color: #FFF;
+    text-shadow: 1px 1px 1px #5fa12d;
+    position: relative;
+    top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    float: right;
+  }
+  .btn_red {
+    display: block;
+    width: 79px;
+    height: 22px;
+    background: -webkit-linear-gradient(top, #fa3f36 50%, #fb1105 100%);
+    border: none;
+    outline: none;
+    color: #FFF;
+    text-shadow: 1px 1px 1px #5fa12d;
+    position: relative;
+    top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    float: right;
   }
 }

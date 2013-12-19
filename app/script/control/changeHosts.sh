@@ -1,0 +1,1 @@
+echo "Hcj19890713\n" | sudo -S mv -f /Users/hcj/Projects/workstation/node/hostsX/app/script/model/hosts /etc/hosts

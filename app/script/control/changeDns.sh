@@ -1,0 +1,1 @@
+echo "null\n" | sudo -S networksetup -setdnsservers Wi-Fi empty

@@ -3,8 +3,10 @@
 <head>
     <title>hostsX</title>
     <base target="_self">
-    <meta charset="utf-8" />
+    <meta charset="utf-8"/>
     <link href="assets/css/main.css" type="text/css" rel="stylesheet" charset="utf-8"/>
+    <link href="assets/css/jquery-ui.css" type="text/css" rel="stylesheet" charset="utf-8"/>
+    <link href="assets/css/jquery-ui-1.10.3.custom.min.css" type="text/css" rel="stylesheet" charset="utf-8"/>
 </head>
 <body>
 <div id="window">
@@ -12,50 +14,121 @@
     <header id="hd">
         <div class="dragbar">
             <h1>hosts<span>X</span></h1>
+
             <p class="app-desc">just a hosts editer</p>
         </div>
         <ul class="control">
-            <span class="minimize"></span>
-            <span class="close"></span>
+            <span class="help simpletooltip" id="help" title="帮助"></span>
+            <span class="minimize simpletooltip" id="minimizeWin" title="最小化"></span>
+            <span class="close simpletooltip" id="closeWin" title="关闭"></span>
         </ul>
+        <span title="" id="winTip"></span>
     </header>
     <!-- hd end-->
     <!-- bd -->
     <section id="bd">
         <div id="sidebar">
             <ul id="menus">
-                <li id="newFile">新建</li>
-                <li id="delFile">删除</li>
-                <li id="teamServer">团队</li>
+                <li id="newFile" class="simpletooltip" title="新建"></li>
+                <li id="delFile" class="simpletooltip" title="删除"></li>
+                <li id="teamServer" class="simpletooltip" title="团队功能"></li>
             </ul>
             <div id="projects">
-                <ul id="floders">
+                <ul id="localListsPanel">
 
                 </ul>
             </div>
         </div>
         <section id="main">
             <div class="searchBar">
-                <button class="btn_refresh" id="refresh">刷DNS</button>
-
+                <button class="btn_cleanDns" id="cleanHosts">清空Hosts</button>
+                <button class="btn_blue" id="setDNS">设置DNS</button>
+                <button class="btn_blue" id="cleanDns">清空DNS</button>
                 <div id="searchForm">
-                    <input type="text" placeholder="在本地、团队搜索Hosts" />
-                    <button class="btn_search">搜索</button>
+                    <input type="text" placeholder="输入名称在本地、团队搜索" id="searchInput"/>
+                    <button class="btn_search" id="searchBtn">搜索</button>
                 </div>
             </div>
-            <section id="editPanel">
-                <div class="edit-panel" contenteditable="true">
+            <section class="edit-panel">
+                <textarea  id="editPanel" >
 
-                </div>
+                </textarea>
             </section>
             <div class="control-bar">
                 <div class="hr"></div>
-                <button class="btn_save" id="save">保存</button>
+                <span id="fileStat"></span>
+                <button class="btn_green" id="save">保存</button>
+                <button class="btn_green" id="cover">覆盖</button>
             </div>
         </section>
+        <div id="extend">
+            <div class="inner" id="dataDetail">
+                <h3 class="title" id="dataName"><i id="modifyDataName"></i></h3>
+                <h4 class="desc">最后一次修改时间：<br/><span id="modifyDate"></span></h4>
+
+                <div class="option_args">
+                    <label>
+                        历史修改版本:
+                        <select id="dataHistoryList">
+
+                        </select>
+                    </label>
+                    <button class="btn_red" id="cleanHistory">清空历史</button>
+                </div>
+            </div>
+            <div class="inner" id="setDnsPanel">
+                <h3 class="title">设置DNS</h3>
+
+                <div class="option_args">
+                    <label>请输入DNS:</label>
+                    <input type="text" id="dnsInput" placeholder=""/>
+                    <label>
+                        <input type="checkbox" id="isSaveDnsToHistory"><span>保存以便下次使用</span>
+                    </label>
+                    <label>or</label>
+                    <select id="dnsHistorySelect">
+
+                    </select>
+
+                    <div style="margin-top:10px;">
+                        <label>请选择上网方式:</label>
+                        <select id="netNameSelect">
+
+                        </select>
+                        <h4 class="desc">＊Mac系统必选，windows系统可以忽略，否则将导致更改失败</h4>
+                    </div>
+                    <footer>
+                        <button class="btn_green" id="dnsSave">保存</button>
+                        <button class="btn_red" id="cleanDnsHistory">清空记录</button>
+                    </footer>
+                </div>
+            </div>
+        </div>
     </section>
     <!-- bd  end-->
 </div>
-<script type="text/javascript" src="assets/js/main.js"></script>
+<div class="hide" id="helpDialog" title="简介">
+    <p>描述: hosts管理，跨平台 </p>
+    <p>版本号: V1.0.0</p>
+    <p>旺旺ID: 夏城</p>
+    <p><button id="checkUpdate">检查更新</button></p>
+</div>
+<div class="hide" id="updateDialog" title="有新版本可以更新，你看要不要更新！！">
+    <p>
+        <br/>
+    </p>
+    <p>
+        <button id="updateBtn">立即更新</button>
+        <button id="updateLaterBtn">以后更新</button>
+        <button id="updateCancelBtn">取消</button>
+    </p>
+</div>
+<div class="hide" id="updateProcess" title="更新进度">
+    <div id="updateProcessBar"></div>
+</div>
+<script type="text/javascript" src="assets/js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="assets/js/ejs.min.js"></script>
+<script type="text/javascript" src="assets/js/jQuery-ui.js"></script>
+<script type="text/javascript" src="script/main.js"></script>
 </body>
 </html>

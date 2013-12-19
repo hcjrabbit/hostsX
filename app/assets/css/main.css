@@ -1,7 +1,10 @@
 @import "reset.css";
+.hide {
+  display: none;
+}
 #window {
-  width: 900px;
-  height: 530px;
+  width: 100%;
+  height: 100%;
   position: absolute;
   overflow: hidden;
   display: -webkit-box;
@@ -17,8 +20,8 @@
   color: #CCD6DE;
 }
 #window #hd .dragbar {
+  width: -webkit-calc(85%);
   -webkit-app-region: drag;
-  width: -webkit-calc(25%);
 }
 #window #hd .dragbar h1 {
   font-size: 18px;
@@ -73,12 +76,41 @@
   content: "×";
   text-indent: 0;
 }
+#window #hd .control .help:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: -1px;
+  width: 100%;
+  height: 100%;
+  font-weight: bold;
+  text-align: center;
+  font-size: 16px;
+  content: "";
+  text-indent: 0;
+  background: url(../img/icons.png) no-repeat -197px -76px;
+}
+#window #hd .control .help:hover,
+#window #hd .control .minimize:hover {
+  background-color: #5a6064;
+}
+#window #hd .control .close:hover {
+  background-color: #C73636;
+}
+#window #hd #winTip {
+  display: block;
+  width: 1px;
+  height: 1px;
+  position: fixed;
+  margin-left: -50px;
+  left: 50%;
+  top: 200px;
+}
 #window #bd {
   -webkit-box-flex: 1;
   background-color: #f5f5f5;
   position: relative;
   min-width: 350px;
-  padding-right: 20px;
   top: 35px;
   display: -webkit-box;
   -webkit-box-orient: horizontal;
@@ -148,16 +180,16 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
-  font-size: 14px;
+  font-size: 12px;
   cursor: pointer;
   width: 130px;
 }
 #window #bd #sidebar #projects li:before {
   display: block;
   width: 22px;
-  height: 22px;
+  height: 26px;
   background: url(../img/icons.png) no-repeat;
-  background-position: -90px -41px;
+  background-position: -90px -39px;
   position: absolute;
   top: 50%;
   left: 18px;
@@ -168,7 +200,7 @@
   background-color: #cedee9;
   font-weight: bold;
 }
-#window #bd #sidebar #projects li.active:after {
+#window #bd #sidebar #projects li.active .arrow {
   display: block;
   width: 20px;
   height: 13px;
@@ -197,7 +229,10 @@
   position: relative;
   overflow: hidden;
 }
-#window #bd #main .searchBar #refresh {
+#window #bd #main .searchBar .btn_refresh,
+#window #bd #main .searchBar .btn_cleanDns,
+#window #bd #main .searchBar .btn_blue,
+#window #bd #main .searchBar .btn_red {
   float: left;
   display: block;
   width: 79px;
@@ -210,12 +245,25 @@
   text-shadow: 1px 1px 1px #5fa12d;
   position: relative;
   top: 2px;
+  left: 10px;
   cursor: pointer;
 }
-#window #bd #main .searchBar #refresh {
-  left: 10px;
+#window #bd #main .searchBar #cleanHosts {
+  width: 86px;
 }
-#window #bd #main .searchBar #refresh:after {
+#window #bd #main .searchBar #setDNS {
+  background: -webkit-linear-gradient(top, #87c6ff 0%, #46a0fc 100%);
+  left: 20px;
+}
+#window #bd #main .searchBar #cleanDns {
+  background: -webkit-linear-gradient(top, #fa3f36 50%, #fb1105 100%);
+  left: 20px;
+}
+#window #bd #main .searchBar #cleanDns {
+  left: 30px;
+}
+#window #bd #main .searchBar .btn_refresh:after,
+#window #bd #main .searchBar .btn_cleanDns:after {
   float: left;
   display: block;
   width: 14px;
@@ -255,20 +303,117 @@
   top: 4px;
   cursor: pointer;
 }
-#window #bd #main #editPanel {
+#window #bd #main .edit-panel {
   padding: 5px;
 }
-#window #bd #main #editPanel .edit-panel {
+#window #bd #main .edit-panel #editPanel {
   border: 1px #dee2e5 solid;
-  min-width: 100px;
+  width: -webkit-calc(95%);
   background-color: white;
-  min-height: 340px;
+  height: 340px;
   padding: 10px;
+  overflow: scroll;
+}
+#window #bd #main .edit-panel #editPanel::-webkit-selection {
+  background: #33FF99;
+  color: #FF3300;
+}
+#window #bd #main .edit-panel #editPanel::selection {
+  background: #33FF99;
+  color: #FF3300;
 }
 #window #bd #main .control-bar {
   padding: 10px 0;
 }
-#window #bd #main .control-bar #save {
+#window #bd #main .control-bar #cover {
+  margin-right: 10px;
+}
+#window #bd #main .control-bar #fileStat {
+  top: 10px;
+  color: #FE7000;
+}
+#window #bd #main .control-bar .hr {
+  border-bottom: 1px solid #dee2e5;
+  background-color: #FFF;
+  height: 1px;
+}
+#window #bd #extend {
+  width: 0;
+  background-color: #575c60;
+  color: #fff;
+  -webkit-transition: width 200ms ease-out;
+  position: relative;
+  overflow: hidden;
+}
+#window #bd #extend .inner {
+  width: 180px;
+  padding: 10px;
+  line-height: 22px;
+  -webkit-transition: opacity 200ms ease-out;
+  display: none;
+}
+#window #bd #extend .inner select,
+#window #bd #extend .inner label,
+#window #bd #extend .inner input[type=text] {
+  display: block;
+  margin: 5px 0;
+  line-height: 18px;
+  width: 100%;
+}
+#window #bd #extend .inner .title {
+  text-align: center;
+  height: 22px;
+  position: relative;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+#window #bd #extend .inner .title #modifyDataName {
+  position: relative;
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  background: url(../img/icons.png) no-repeat -188px -50px;
+}
+#window #bd #extend .inner .title:after {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  content: attr(data-type);
+}
+#window #bd #extend .inner .desc {
+  text-align: center;
+  color: #CCC;
+  margin-bottom: 10px;
+}
+#window #bd #extend .inner .option_args {
+  margin-top: 10px;
+  min-height: 290px;
+  max-height: 330px;
+  overflow-y: auto;
+}
+#window #bd #extend .inner .option_args label {
+  position: relative;
+  text-transform: capitalize;
+}
+#window #bd #extend .inner .option_args select {
+  width: 100%;
+}
+#window #bd #extend .inner .option_args #cleanDnsHistory {
+  margin-right: 10px;
+}
+#window #bd #extend .inner.show {
+  display: block;
+  opacity: 1;
+}
+#window #bd #extend.show {
+  width: 200px;
+}
+#window .white_btn {
+  border-radius: 12px;
+  padding: 0 14px;
+}
+#window .btn_green {
   display: block;
   width: 79px;
   height: 22px;
@@ -283,8 +428,18 @@
   border-radius: 5px;
   float: right;
 }
-#window #bd #main .control-bar .hr {
-  border-bottom: 1px solid #dee2e5;
-  background-color: #FFF;
-  height: 1px;
+#window .btn_red {
+  display: block;
+  width: 79px;
+  height: 22px;
+  background: -webkit-linear-gradient(top, #fa3f36 50%, #fb1105 100%);
+  border: none;
+  outline: none;
+  color: #FFF;
+  text-shadow: 1px 1px 1px #5fa12d;
+  position: relative;
+  top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  float: right;
 }

@@ -23,28 +23,138 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="hostsController.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controls/hostsController.js">
+      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/script/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
+            <state line="627" column="17" selection-start="20511" selection-end="20511" vertical-scroll-proportion="0.35714287" vertical-offset="2125" max-vertical-offset="2610">
+              <folding>
+                <element signature="e#1131#1145#0" expanded="false" />
+                <element signature="e#1183#1208#0" expanded="false" />
+                <element signature="e#1286#1321#0" expanded="false" />
+                <element signature="e#1441#1518#0" expanded="false" />
+                <element signature="e#1543#1695#0" expanded="false" />
+                <element signature="e#1888#2075#0" expanded="false" />
+                <element signature="e#2480#2793#0" expanded="false" />
+                <element signature="e#2571#2781#0" expanded="false" />
+                <element signature="e#2805#2832#0" expanded="false" />
+                <element signature="e#2860#5013#0" expanded="false" />
+                <element signature="e#2959#3054#0" expanded="false" />
+                <element signature="e#3119#3155#0" expanded="false" />
+                <element signature="e#3224#3263#0" expanded="false" />
+                <element signature="e#3349#3431#0" expanded="false" />
+                <element signature="e#3557#3599#0" expanded="false" />
+                <element signature="e#3867#3922#0" expanded="false" />
+                <element signature="e#4593#4673#0" expanded="false" />
+                <element signature="e#5019#5063#0" expanded="false" />
+                <element signature="e#5105#5215#0" expanded="false" />
+                <element signature="e#5251#5795#0" expanded="false" />
+                <element signature="e#5324#5396#0" expanded="false" />
+                <element signature="e#5496#5606#0" expanded="false" />
+                <element signature="e#5612#5760#0" expanded="false" />
+                <element signature="e#5827#6040#0" expanded="false" />
+                <element signature="e#5889#6031#0" expanded="false" />
+                <element signature="e#5912#5983#0" expanded="false" />
+                <element signature="e#6082#6536#0" expanded="false" />
+                <element signature="e#6109#6196#0" expanded="false" />
+                <element signature="e#6581#6832#0" expanded="false" />
+                <element signature="e#6860#6918#0" expanded="false" />
+                <element signature="e#6951#7308#0" expanded="false" />
+                <element signature="e#7135#7245#0" expanded="false" />
+                <element signature="e#7344#7504#0" expanded="false" />
+                <element signature="e#7406#7474#0" expanded="false" />
+                <element signature="e#7536#8312#0" expanded="false" />
+                <element signature="e#7612#7678#0" expanded="false" />
+                <element signature="e#7705#8071#0" expanded="false" />
+                <element signature="e#7814#8059#0" expanded="false" />
+                <element signature="e#7841#7896#0" expanded="false" />
+                <element signature="e#7902#8045#0" expanded="false" />
+                <element signature="e#8168#8304#0" expanded="false" />
+                <element signature="e#8347#8512#0" expanded="false" />
+                <element signature="e#8544#8746#0" expanded="false" />
+                <element signature="e#8776#8919#0" expanded="false" />
+                <element signature="e#8945#9049#0" expanded="false" />
+                <element signature="e#9079#9358#0" expanded="false" />
+                <element signature="e#9245#9352#0" expanded="false" />
+                <element signature="e#9386#9671#0" expanded="false" />
+                <element signature="e#9419#9663#0" expanded="false" />
+                <element signature="e#9432#9501#0" expanded="false" />
+                <element signature="e#9515#9581#0" expanded="false" />
+                <element signature="e#9595#9662#0" expanded="false" />
+                <element signature="e#9708#9968#0" expanded="false" />
+                <element signature="e#10006#10436#0" expanded="false" />
+                <element signature="e#10156#10270#0" expanded="false" />
+                <element signature="e#10276#10388#0" expanded="false" />
+                <element signature="e#10466#10552#0" expanded="false" />
+                <element signature="e#10591#11059#0" expanded="false" />
+                <element signature="e#10791#10900#0" expanded="false" />
+                <element signature="e#10906#11053#0" expanded="false" />
+                <element signature="e#11094#11328#0" expanded="false" />
+                <element signature="e#11362#11777#0" expanded="false" />
+                <element signature="e#11433#11771#0" expanded="false" />
+                <element signature="e#11560#11649#0" expanded="false" />
+                <element signature="e#11817#12501#0" expanded="false" />
+                <element signature="e#12051#12151#0" expanded="false" />
+                <element signature="e#12220#12493#0" expanded="false" />
+                <element signature="e#12296#12380#0" expanded="false" />
+                <element signature="e#12529#12815#0" expanded="false" />
+                <element signature="e#12625#12771#0" expanded="false" />
+                <element signature="e#12852#13780#0" expanded="false" />
+                <element signature="e#13055#13094#0" expanded="false" />
+                <element signature="e#13813#15972#0" expanded="false" />
+                <element signature="e#13899#15928#0" expanded="false" />
+                <element signature="e#14041#15604#0" expanded="false" />
+                <element signature="e#14142#14191#0" expanded="false" />
+                <element signature="e#14528#14957#0" expanded="false" />
+                <element signature="e#15016#15351#0" expanded="false" />
+                <element signature="e#15065#15209#0" expanded="false" />
+                <element signature="e#15215#15332#0" expanded="false" />
+                <element signature="e#15652#15918#0" expanded="false" />
+                <element signature="e#15979#16064#0" expanded="false" />
+                <element signature="e#16110#16918#0" expanded="false" />
+                <element signature="e#16257#16553#0" expanded="false" />
+                <element signature="e#16324#16543#0" expanded="false" />
+                <element signature="e#16342#16529#0" expanded="false" />
+                <element signature="e#16924#16952#0" expanded="false" />
+                <element signature="e#17355#17392#0" expanded="false" />
+                <element signature="e#17421#18240#0" expanded="false" />
+                <element signature="e#17686#17717#0" expanded="false" />
+                <element signature="e#17877#18004#0" expanded="false" />
+                <element signature="e#18278#18470#0" expanded="false" />
+                <element signature="e#18505#18988#0" expanded="false" />
+                <element signature="e#18643#18713#0" expanded="false" />
+                <element signature="e#19017#19257#0" expanded="false" />
+                <element signature="e#19103#19249#0" expanded="false" />
+                <element signature="e#19288#19625#0" expanded="false" />
+                <element signature="e#19362#19465#0" expanded="false" />
+                <element signature="e#19655#19833#0" expanded="false" />
+                <element signature="e#19751#19808#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/script/config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="14" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0" vertical-offset="157" max-vertical-offset="675">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/test.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="3" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="22" selection-start="729" selection-end="729" vertical-scroll-proportion="0.52884614" vertical-offset="0" max-vertical-offset="315">
+            <state line="16" column="23" selection-start="427" selection-end="427" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="420">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="update.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/script/control/update.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="46" column="0" selection-start="1294" selection-end="1294" vertical-scroll-proportion="4.423077" vertical-offset="805" max-vertical-offset="1215">
               <folding />
             </state>
           </provider>
@@ -60,29 +170,29 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/public/js/main.js" />
-        <option value="$PROJECT_DIR$/app/assets/css/reset.css" />
-        <option value="$PROJECT_DIR$/app/assets/css/main.css" />
-        <option value="$PROJECT_DIR$/app/assets/js/browserVision.js" />
-        <option value="$PROJECT_DIR$/main.html" />
-        <option value="$PROJECT_DIR$/app/assets/css/main.less" />
+        <option value="$PROJECT_DIR$/data/sysPassword.json" />
+        <option value="$PROJECT_DIR$/data/localDns.json" />
+        <option value="$PROJECT_DIR$/data/localData.json" />
+        <option value="$PROJECT_DIR$/app/script/control/sysVision.js" />
+        <option value="$PROJECT_DIR$/app/script/control/menu.js" />
+        <option value="$PROJECT_DIR$/app/script/model/localDataController.js" />
         <option value="$PROJECT_DIR$/app/main.html" />
-        <option value="$PROJECT_DIR$/app/controls/getHosts.js" />
-        <option value="$PROJECT_DIR$/app/controls/hosts.js" />
-        <option value="$PROJECT_DIR$/app/model/localFileControl.js" />
-        <option value="$PROJECT_DIR$/app/model/localListsControl.js" />
-        <option value="$PROJECT_DIR$/app/assets/js/main.js" />
-        <option value="$PROJECT_DIR$/app/model/localHostsList.js" />
-        <option value="$PROJECT_DIR$/app/test.txt" />
-        <option value="$PROJECT_DIR$/app/controls/hostsController.js" />
+        <option value="$PROJECT_DIR$/app/assets/css/main.less" />
+        <option value="$PROJECT_DIR$/app/script/control/tray.js" />
+        <option value="$PROJECT_DIR$/app/script/model/dnsController.js" />
+        <option value="$PROJECT_DIR$/app/script/control/changeHosts.sh" />
+        <option value="$PROJECT_DIR$/app/script/model/hostsController.js" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/app/script/config.js" />
+        <option value="$PROJECT_DIR$/app/script/control/update.js" />
+        <option value="$PROJECT_DIR$/app/script/main.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1280" />
-    <option name="height" value="679" />
+    <option name="height" value="711" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -110,7 +220,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -139,6 +248,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="node_modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hostsX" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hostsX" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -154,6 +277,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="script" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hostsX" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hostsX" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="script" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -175,37 +320,202 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="controls" />
+              <option name="myItemId" value="script" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="control" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hostsX" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hostsX" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hostsX" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hostsX" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="JavaScript.Libraries" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../server" />
+    <property name="options.lastSelected" value="JavaScript.Libraries" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../appUpdate" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="FullScreen" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
+  <component name="PublishConfig" serverName="blog" serverId="9b7535df-0b37-4624-90bd-dab25439718a">
+    <servers>
+      <server id="9b7535df-0b37-4624-90bd-dab25439718a">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+    </servers>
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/app/assets/css" />
-      <recent name="$PROJECT_DIR$/app/assets/js" />
+      <recent name="$PROJECT_DIR$/app/script/control" />
+      <recent name="$PROJECT_DIR$/app/script" />
       <recent name="$PROJECT_DIR$/app/assets" />
+      <recent name="$PROJECT_DIR$/app/assets/css" />
+      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/model" />
+      <recent name="$PROJECT_DIR$/app/script/control" />
+      <recent name="$PROJECT_DIR$/data" />
       <recent name="$PROJECT_DIR$/app" />
+      <recent name="$PROJECT_DIR$/app/scripts" />
+      <recent name="$PROJECT_DIR$/app/assets/js" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://appupdate.aws.af.cm" />
+          <option name="urlPath" value="/update" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="name" />
+                <option name="value" value="hostsX" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://appupdate.aws.af.cm" />
+          <option name="urlPath" value="/save" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="name" />
+                <option name="value" value="hostsX" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://appupdate.aws.af.cm" />
+          <option name="urlPath" value="/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="name" />
+                <option name="value" value="hostsX" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Nodeunit.test">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -216,23 +526,25 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
+    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="CHROME" />
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
-      <setting name="configLocationType" value="CONFIG_FILE" />
-      <setting name="settingsFile" value="" />
-      <setting name="serverType" value="INTERNAL" />
-      <setting name="preferredDebugBrowser" value="CHROME" />
+    <configuration default="true" type="NodeunitConfigurationType" factoryName="Nodeunit">
+      <setting name="nodePath" value="/Applications/node-webkit.app/Contents/MacOS/node-webkit " />
+      <envs />
+      <setting name="passParentEnvVars" value="true" />
+      <setting name="nodeunitModuleDir" value="" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="testType" value="JS_FILE" />
+      <setting name="jsFile" value="" />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
@@ -242,7 +554,23 @@
       <browser start="false" url="" with-js-debugger="false" />
       <method />
     </configuration>
-    <list size="0" />
+    <configuration default="false" name="test" type="NodeunitConfigurationType" factoryName="Nodeunit">
+      <setting name="nodePath" value="/Applications/node-webkit.app/Contents/MacOS/node-webkit " />
+      <envs />
+      <setting name="passParentEnvVars" value="true" />
+      <setting name="nodeunitModuleDir" value="" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="testType" value="JS_FILE" />
+      <setting name="jsFile" value="" />
+      <RunnerSettings RunnerId="Nodeunit.debug" />
+      <RunnerSettings RunnerId="Nodeunit.run" />
+      <ConfigurationWrapper RunnerId="Nodeunit.debug" />
+      <ConfigurationWrapper RunnerId="Nodeunit.run" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Nodeunit.test" />
+    </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
@@ -260,6 +588,7 @@
     <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
     <option name="FORCE_UPDATE" value="false" />
     <option name="IGNORE_EXTERNALS" value="false" />
+    <configuration useDefault="true">$USER_HOME$/.subversion</configuration>
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
   </component>
   <component name="TaskManager">
@@ -271,23 +600,25 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="679" extended-state="6" />
+    <frame x="0" y="22" width="1280" height="711" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3488372" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31641287" sideWeight="0.49918962" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994923" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24980111" sideWeight="0.6511628" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.678511" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21799028" sideWeight="0.68358713" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969433" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38747886" sideWeight="0.5008104" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994923" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994923" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.65482235" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -295,21 +626,23 @@
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32994923" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31641287" sideWeight="0.49918962" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994923" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.678511" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38747886" sideWeight="0.5008104" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969433" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.65482235" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24980111" sideWeight="0.67005074" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21474878" sideWeight="0.34517765" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994923" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -322,122 +655,214 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/app/script/control/update.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="28" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="285">
+        <state line="71" column="0" selection-start="2227" selection-end="2227" vertical-scroll-proportion="0.0" vertical-offset="670" max-vertical-offset="1215">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/script/control/menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="15" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0" vertical-offset="41" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/script/control/formatDate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="104" max-vertical-offset="480" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/script/model/localDataController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="59" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="16" selection-start="198" selection-end="198" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="360">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="21" selection-start="718" selection-end="722" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="285">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/img/psd/icons.psd">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/css/reset.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="160" column="29" selection-start="2191" selection-end="2191" vertical-scroll-proportion="0.0" vertical-offset="2078" max-vertical-offset="4185">
-          <folding>
-            <element signature="e#2802#3047#1" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="1" selection-start="0" selection-end="21" vertical-scroll-proportion="0.23978686" vertical-offset="0" max-vertical-offset="563">
+        <state line="113" column="30" selection-start="4221" selection-end="4232" vertical-scroll-proportion="-11.208333" vertical-offset="1426" max-vertical-offset="2085">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/css/main.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="278" column="0" selection-start="6350" selection-end="6350" vertical-scroll-proportion="0.055658627" vertical-offset="3720" max-vertical-offset="4515">
+        <state line="347" column="16" selection-start="7951" selection-end="7951" vertical-scroll-proportion="-4.9583335" vertical-offset="5086" max-vertical-offset="7230">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/img/hostsX.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/script/control/tray.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="11" selection-start="1491" selection-end="1491" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="870">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/script/control/changeDns.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="20" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/script/control/changeHosts.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="112" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/script/model/dnsController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="11" selection-start="247" selection-end="247" vertical-scroll-proportion="9.076923" vertical-offset="416" max-vertical-offset="1680">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/script/model/hostsController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="0" selection-start="2779" selection-end="2779" vertical-scroll-proportion="0.0" vertical-offset="214" max-vertical-offset="840">
           <folding>
-            <element signature="e#5566#6348#0" expanded="false" />
-            <element signature="e#5663#5855#0" expanded="false" />
+            <element signature="e#1012#2419#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="7" selection-start="1715" selection-end="1715" vertical-scroll-proportion="-18.083334" vertical-offset="451" max-vertical-offset="990">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="26" selection-start="254" selection-end="254" vertical-scroll-proportion="-6.923077" vertical-offset="0" max-vertical-offset="315">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/model/localListsControl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="6" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0" vertical-offset="82" max-vertical-offset="510">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/model/localHostsList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/js/browserVision.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="563">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/test.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="3" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="368">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controls/hostsController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="22" selection-start="729" selection-end="729" vertical-scroll-proportion="0.52884614" vertical-offset="0" max-vertical-offset="315">
+        <state line="16" column="23" selection-start="427" selection-end="427" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="420">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/script/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="14" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0" vertical-offset="157" max-vertical-offset="675">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/script/control/update.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="0" selection-start="1294" selection-end="1294" vertical-scroll-proportion="4.423077" vertical-offset="805" max-vertical-offset="1215">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/script/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="627" column="17" selection-start="20511" selection-end="20511" vertical-scroll-proportion="0.35714287" vertical-offset="2125" max-vertical-offset="2610">
+          <folding>
+            <element signature="e#1131#1145#0" expanded="false" />
+            <element signature="e#1183#1208#0" expanded="false" />
+            <element signature="e#1286#1321#0" expanded="false" />
+            <element signature="e#1441#1518#0" expanded="false" />
+            <element signature="e#1543#1695#0" expanded="false" />
+            <element signature="e#1888#2075#0" expanded="false" />
+            <element signature="e#2480#2793#0" expanded="false" />
+            <element signature="e#2571#2781#0" expanded="false" />
+            <element signature="e#2805#2832#0" expanded="false" />
+            <element signature="e#2860#5013#0" expanded="false" />
+            <element signature="e#2959#3054#0" expanded="false" />
+            <element signature="e#3119#3155#0" expanded="false" />
+            <element signature="e#3224#3263#0" expanded="false" />
+            <element signature="e#3349#3431#0" expanded="false" />
+            <element signature="e#3557#3599#0" expanded="false" />
+            <element signature="e#3867#3922#0" expanded="false" />
+            <element signature="e#4593#4673#0" expanded="false" />
+            <element signature="e#5019#5063#0" expanded="false" />
+            <element signature="e#5105#5215#0" expanded="false" />
+            <element signature="e#5251#5795#0" expanded="false" />
+            <element signature="e#5324#5396#0" expanded="false" />
+            <element signature="e#5496#5606#0" expanded="false" />
+            <element signature="e#5612#5760#0" expanded="false" />
+            <element signature="e#5827#6040#0" expanded="false" />
+            <element signature="e#5889#6031#0" expanded="false" />
+            <element signature="e#5912#5983#0" expanded="false" />
+            <element signature="e#6082#6536#0" expanded="false" />
+            <element signature="e#6109#6196#0" expanded="false" />
+            <element signature="e#6581#6832#0" expanded="false" />
+            <element signature="e#6860#6918#0" expanded="false" />
+            <element signature="e#6951#7308#0" expanded="false" />
+            <element signature="e#7135#7245#0" expanded="false" />
+            <element signature="e#7344#7504#0" expanded="false" />
+            <element signature="e#7406#7474#0" expanded="false" />
+            <element signature="e#7536#8312#0" expanded="false" />
+            <element signature="e#7612#7678#0" expanded="false" />
+            <element signature="e#7705#8071#0" expanded="false" />
+            <element signature="e#7814#8059#0" expanded="false" />
+            <element signature="e#7841#7896#0" expanded="false" />
+            <element signature="e#7902#8045#0" expanded="false" />
+            <element signature="e#8168#8304#0" expanded="false" />
+            <element signature="e#8347#8512#0" expanded="false" />
+            <element signature="e#8544#8746#0" expanded="false" />
+            <element signature="e#8776#8919#0" expanded="false" />
+            <element signature="e#8945#9049#0" expanded="false" />
+            <element signature="e#9079#9358#0" expanded="false" />
+            <element signature="e#9245#9352#0" expanded="false" />
+            <element signature="e#9386#9671#0" expanded="false" />
+            <element signature="e#9419#9663#0" expanded="false" />
+            <element signature="e#9432#9501#0" expanded="false" />
+            <element signature="e#9515#9581#0" expanded="false" />
+            <element signature="e#9595#9662#0" expanded="false" />
+            <element signature="e#9708#9968#0" expanded="false" />
+            <element signature="e#10006#10436#0" expanded="false" />
+            <element signature="e#10156#10270#0" expanded="false" />
+            <element signature="e#10276#10388#0" expanded="false" />
+            <element signature="e#10466#10552#0" expanded="false" />
+            <element signature="e#10591#11059#0" expanded="false" />
+            <element signature="e#10791#10900#0" expanded="false" />
+            <element signature="e#10906#11053#0" expanded="false" />
+            <element signature="e#11094#11328#0" expanded="false" />
+            <element signature="e#11362#11777#0" expanded="false" />
+            <element signature="e#11433#11771#0" expanded="false" />
+            <element signature="e#11560#11649#0" expanded="false" />
+            <element signature="e#11817#12501#0" expanded="false" />
+            <element signature="e#12051#12151#0" expanded="false" />
+            <element signature="e#12220#12493#0" expanded="false" />
+            <element signature="e#12296#12380#0" expanded="false" />
+            <element signature="e#12529#12815#0" expanded="false" />
+            <element signature="e#12625#12771#0" expanded="false" />
+            <element signature="e#12852#13780#0" expanded="false" />
+            <element signature="e#13055#13094#0" expanded="false" />
+            <element signature="e#13813#15972#0" expanded="false" />
+            <element signature="e#13899#15928#0" expanded="false" />
+            <element signature="e#14041#15604#0" expanded="false" />
+            <element signature="e#14142#14191#0" expanded="false" />
+            <element signature="e#14528#14957#0" expanded="false" />
+            <element signature="e#15016#15351#0" expanded="false" />
+            <element signature="e#15065#15209#0" expanded="false" />
+            <element signature="e#15215#15332#0" expanded="false" />
+            <element signature="e#15652#15918#0" expanded="false" />
+            <element signature="e#15979#16064#0" expanded="false" />
+            <element signature="e#16110#16918#0" expanded="false" />
+            <element signature="e#16257#16553#0" expanded="false" />
+            <element signature="e#16324#16543#0" expanded="false" />
+            <element signature="e#16342#16529#0" expanded="false" />
+            <element signature="e#16924#16952#0" expanded="false" />
+            <element signature="e#17355#17392#0" expanded="false" />
+            <element signature="e#17421#18240#0" expanded="false" />
+            <element signature="e#17686#17717#0" expanded="false" />
+            <element signature="e#17877#18004#0" expanded="false" />
+            <element signature="e#18278#18470#0" expanded="false" />
+            <element signature="e#18505#18988#0" expanded="false" />
+            <element signature="e#18643#18713#0" expanded="false" />
+            <element signature="e#19017#19257#0" expanded="false" />
+            <element signature="e#19103#19249#0" expanded="false" />
+            <element signature="e#19288#19625#0" expanded="false" />
+            <element signature="e#19362#19465#0" expanded="false" />
+            <element signature="e#19655#19833#0" expanded="false" />
+            <element signature="e#19751#19808#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
